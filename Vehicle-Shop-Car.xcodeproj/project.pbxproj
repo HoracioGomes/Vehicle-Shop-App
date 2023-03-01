@@ -13,6 +13,9 @@
 		96D53D3829AFE71D00279523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D53D3629AFE71D00279523 /* Main.storyboard */; };
 		96D53D3A29AFE72300279523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D53D3929AFE72300279523 /* Assets.xcassets */; };
 		96D53D3D29AFE72300279523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D53D3B29AFE72300279523 /* LaunchScreen.storyboard */; };
+		96D53D4529AFEB3600279523 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4429AFEB3600279523 /* Vehicle.swift */; };
+		96D53D4729AFEBCF00279523 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4629AFEBCF00279523 /* Enums.swift */; };
+		96D53D4929B00A3500279523 /* Sedan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4829B00A3500279523 /* Sedan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		96D53D3929AFE72300279523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D53D3C29AFE72300279523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D53D3E29AFE72300279523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D53D4429AFEB3600279523 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		96D53D4629AFEBCF00279523 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		96D53D4829B00A3500279523 /* Sedan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sedan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				96D53D3929AFE72300279523 /* Assets.xcassets */,
 				96D53D3B29AFE72300279523 /* LaunchScreen.storyboard */,
 				96D53D3E29AFE72300279523 /* Info.plist */,
+				96D53D4429AFEB3600279523 /* Vehicle.swift */,
+				96D53D4829B00A3500279523 /* Sedan.swift */,
+				96D53D4629AFEBCF00279523 /* Enums.swift */,
 			);
 			path = "Vehicle-Shop-Car";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D53D4529AFEB3600279523 /* Vehicle.swift in Sources */,
 				96D53D3529AFE71D00279523 /* ViewController.swift in Sources */,
+				96D53D4729AFEBCF00279523 /* Enums.swift in Sources */,
 				96D53D3129AFE71D00279523 /* AppDelegate.swift in Sources */,
 				96D53D3329AFE71D00279523 /* SceneDelegate.swift in Sources */,
+				96D53D4929B00A3500279523 /* Sedan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
