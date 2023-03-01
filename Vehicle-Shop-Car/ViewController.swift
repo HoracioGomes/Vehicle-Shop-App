@@ -11,9 +11,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        Dummies.populateDummies()
     }
 
-
+    
+    @IBAction func statusAction(_ sender: Any) {
+    }
+    
+    @IBAction func typeAction(_ sender: Any) {
+    }
+    
+    @IBAction func addAction(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var textView: UITextView!
 }
 
