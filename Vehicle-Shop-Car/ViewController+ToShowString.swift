@@ -1,0 +1,31 @@
+//
+//  ViewController+ToShowString.swift
+//  Vehicle-Shop-Car
+//
+//  Created by Horacio Gomes dos Santos Junior on 02/03/23.
+//
+
+import Foundation
+import UIKit
+
+extension ViewController {
+    
+    func showString(title: String, vehicles: Array<Vehicle>){
+        var toShowString = title
+        
+        toShowString.append("\n")
+        for vehicle in vehicles {
+            toShowString.append("\n\t")
+            toShowString.append(vehicle.name.uppercased())
+            toShowString.append("\n\t\t")
+            toShowString.append("Color: \(vehicle.color.named)")
+            toShowString.append("\n\t\t")
+            toShowString.append("Max Gear: \(String(vehicle.maxGear))")
+            toShowString.append("\n\t\t")
+            toShowString.append("Status: \(vehicle.status)")
+            toShowString.append("\n")
+        }
+        
+        textView.text = toShowString
+    }
+}

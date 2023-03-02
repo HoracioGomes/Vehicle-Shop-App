@@ -20,7 +20,7 @@
                                 <rect key="frame" x="61" y="102" width="270" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Availabe"/>
+                                    <segment title="Available"/>
                                     <segment title="Out"/>
                                     <segment title="Repairs"/>
                                 </segments>

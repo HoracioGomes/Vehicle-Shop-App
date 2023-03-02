@@ -16,7 +16,7 @@ class Dummies{
         dummies = Array<Vehicle>()
         let vehicle_1 = Sedan(name: "Gol", color: UIColor.cyan, maxGear: 4, status: VehicleState.out)
         let vehicle_2 = Sedan(name: "Voyage", color: UIColor.gray, maxGear: 5, status: VehicleState.repairs)
-        let vehicle_3 = Sedan(name: "Celta", color: UIColor.red, maxGear: 4, status: VehicleState.out)
+        let vehicle_3 = Truck(name: "Celta", color: UIColor.red, maxGear: 4, status: VehicleState.out)
         let vehicle_4 = Sedan(name: "Touro", color: UIColor.blue, maxGear: 6, status: VehicleState.available)
         
         dummies.append(vehicle_1)

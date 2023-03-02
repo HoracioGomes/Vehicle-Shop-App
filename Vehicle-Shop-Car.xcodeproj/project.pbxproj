@@ -16,8 +16,12 @@
 		96D53D4529AFEB3600279523 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4429AFEB3600279523 /* Vehicle.swift */; };
 		96D53D4729AFEBCF00279523 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4629AFEBCF00279523 /* Enums.swift */; };
 		96D53D4929B00A3500279523 /* Sedan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4829B00A3500279523 /* Sedan.swift */; };
-		96D53D4B29B00BD700279523 /* gitignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96D53D4A29B00BD700279523 /* gitignore.txt */; };
 		96D53D4D29B00DC500279523 /* Dummies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4C29B00DC500279523 /* Dummies.swift */; };
+		96D53D4F29B0273100279523 /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D4E29B0273100279523 /* Truck.swift */; };
+		96E2308029B11EF100CDBBA5 /* ViewController+TypeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2307F29B11EF100CDBBA5 /* ViewController+TypeAction.swift */; };
+		96E2308229B11F8600CDBBA5 /* ViewController+StatusAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */; };
+		96E2308429B12CC500CDBBA5 /* UIColor+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308329B12CC500CDBBA5 /* UIColor+Named.swift */; };
+		96E2308629B1300300CDBBA5 /* ViewController+ToShowString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308529B1300300CDBBA5 /* ViewController+ToShowString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +36,12 @@
 		96D53D4429AFEB3600279523 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		96D53D4629AFEBCF00279523 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		96D53D4829B00A3500279523 /* Sedan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sedan.swift; sourceTree = "<group>"; };
-		96D53D4A29B00BD700279523 /* gitignore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gitignore.txt; path = ../../../Desktop/gitignore.txt; sourceTree = "<group>"; };
 		96D53D4C29B00DC500279523 /* Dummies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummies.swift; sourceTree = "<group>"; };
+		96D53D4E29B0273100279523 /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		96E2307F29B11EF100CDBBA5 /* ViewController+TypeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TypeAction.swift"; sourceTree = "<group>"; };
+		96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+StatusAction.swift"; sourceTree = "<group>"; };
+		96E2308329B12CC500CDBBA5 /* UIColor+Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Named.swift"; sourceTree = "<group>"; };
+		96E2308529B1300300CDBBA5 /* ViewController+ToShowString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ToShowString.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +74,20 @@
 		96D53D2F29AFE71D00279523 /* Vehicle-Shop-Car */ = {
 			isa = PBXGroup;
 			children = (
-				96D53D4A29B00BD700279523 /* gitignore.txt */,
+				96E2308329B12CC500CDBBA5 /* UIColor+Named.swift */,
 				96D53D3029AFE71D00279523 /* AppDelegate.swift */,
 				96D53D3229AFE71D00279523 /* SceneDelegate.swift */,
 				96D53D3429AFE71D00279523 /* ViewController.swift */,
+				96E2308529B1300300CDBBA5 /* ViewController+ToShowString.swift */,
+				96E2307F29B11EF100CDBBA5 /* ViewController+TypeAction.swift */,
+				96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */,
 				96D53D3629AFE71D00279523 /* Main.storyboard */,
 				96D53D3929AFE72300279523 /* Assets.xcassets */,
 				96D53D3B29AFE72300279523 /* LaunchScreen.storyboard */,
 				96D53D3E29AFE72300279523 /* Info.plist */,
 				96D53D4429AFEB3600279523 /* Vehicle.swift */,
 				96D53D4829B00A3500279523 /* Sedan.swift */,
+				96D53D4E29B0273100279523 /* Truck.swift */,
 				96D53D4C29B00DC500279523 /* Dummies.swift */,
 				96D53D4629AFEBCF00279523 /* Enums.swift */,
 			);
@@ -143,7 +155,6 @@
 				96D53D3D29AFE72300279523 /* LaunchScreen.storyboard in Resources */,
 				96D53D3A29AFE72300279523 /* Assets.xcassets in Resources */,
 				96D53D3829AFE71D00279523 /* Main.storyboard in Resources */,
-				96D53D4B29B00BD700279523 /* gitignore.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,11 +167,16 @@
 			files = (
 				96D53D4529AFEB3600279523 /* Vehicle.swift in Sources */,
 				96D53D3529AFE71D00279523 /* ViewController.swift in Sources */,
+				96E2308429B12CC500CDBBA5 /* UIColor+Named.swift in Sources */,
+				96E2308629B1300300CDBBA5 /* ViewController+ToShowString.swift in Sources */,
+				96E2308229B11F8600CDBBA5 /* ViewController+StatusAction.swift in Sources */,
+				96E2308029B11EF100CDBBA5 /* ViewController+TypeAction.swift in Sources */,
 				96D53D4729AFEBCF00279523 /* Enums.swift in Sources */,
 				96D53D3129AFE71D00279523 /* AppDelegate.swift in Sources */,
 				96D53D3329AFE71D00279523 /* SceneDelegate.swift in Sources */,
 				96D53D4D29B00DC500279523 /* Dummies.swift in Sources */,
 				96D53D4929B00A3500279523 /* Sedan.swift in Sources */,
+				96D53D4F29B0273100279523 /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

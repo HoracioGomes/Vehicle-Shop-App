@@ -8,22 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var currArray: Array<Vehicle>!
     override func viewDidLoad() {
         super.viewDidLoad()
         Dummies.populateDummies()
-    }
-
-    
-    @IBAction func statusAction(_ sender: Any) {
-    }
-    
-    @IBAction func typeAction(_ sender: Any) {
     }
     
     @IBAction func addAction(_ sender: Any) {
     }
     
     @IBOutlet weak var textView: UITextView!
+    
+    
 }
 
