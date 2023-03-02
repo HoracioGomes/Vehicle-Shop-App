@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addAction(_ sender: Any) {
+        self.performSegue(withIdentifier: "toAddSegue", sender: nil)
     }
     
     @IBOutlet weak var textView: UITextView!
