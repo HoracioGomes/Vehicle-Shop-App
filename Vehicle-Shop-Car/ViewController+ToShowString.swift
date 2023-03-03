@@ -11,18 +11,21 @@ import UIKit
 extension ViewController {
     
     func showString(title: String, vehicles: Array<Vehicle>){
-        var toShowString = title
+        if(title != ""){
+            currenTitle = title
+        }
+        var toShowString = currenTitle
         
         toShowString.append("\n")
         for vehicle in vehicles {
             toShowString.append("\n\t")
             toShowString.append(vehicle.name.uppercased())
             toShowString.append("\n\t\t")
-            toShowString.append("Color: \(vehicle.color.named)")
+            toShowString.append("Color: \(vehicle.color.named ?? "unknown")")
             toShowString.append("\n\t\t")
             toShowString.append("Max Gear: \(String(vehicle.maxGear))")
             toShowString.append("\n\t\t")
-            toShowString.append("Status: \(vehicle.status)")
+            toShowString.append("Status: \(vehicle.status ?? VehicleState.unknown)")
             toShowString.append("\n")
         }
         

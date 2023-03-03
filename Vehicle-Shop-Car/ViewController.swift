@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     var currArray: Array<Vehicle>!
+    var currenTitle: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         Dummies.populateDummies()
+        initialFilter()
     }
     
     @IBAction func addAction(_ sender: Any) {
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var textView: UITextView!
     
+    @IBOutlet weak var segmentedControlStatus: UISegmentedControl!
     
+    @IBOutlet weak var segmentedControlType: UISegmentedControl!
 }
 

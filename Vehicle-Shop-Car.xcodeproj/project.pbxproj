@@ -22,6 +22,7 @@
 		96E2308229B11F8600CDBBA5 /* ViewController+StatusAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */; };
 		96E2308429B12CC500CDBBA5 /* UIColor+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308329B12CC500CDBBA5 /* UIColor+Named.swift */; };
 		96E2308629B1300300CDBBA5 /* ViewController+ToShowString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308529B1300300CDBBA5 /* ViewController+ToShowString.swift */; };
+		96E2308829B156CE00CDBBA5 /* ViewControler+InitialFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2308729B156CE00CDBBA5 /* ViewControler+InitialFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+StatusAction.swift"; sourceTree = "<group>"; };
 		96E2308329B12CC500CDBBA5 /* UIColor+Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Named.swift"; sourceTree = "<group>"; };
 		96E2308529B1300300CDBBA5 /* ViewController+ToShowString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ToShowString.swift"; sourceTree = "<group>"; };
+		96E2308729B156CE00CDBBA5 /* ViewControler+InitialFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControler+InitialFilter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				96D53D3229AFE71D00279523 /* SceneDelegate.swift */,
 				96D53D3429AFE71D00279523 /* ViewController.swift */,
 				96E2308529B1300300CDBBA5 /* ViewController+ToShowString.swift */,
+				96E2308729B156CE00CDBBA5 /* ViewControler+InitialFilter.swift */,
 				96E2307F29B11EF100CDBBA5 /* ViewController+TypeAction.swift */,
 				96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */,
 				96D53D3629AFE71D00279523 /* Main.storyboard */,
@@ -168,6 +171,7 @@
 				96D53D4529AFEB3600279523 /* Vehicle.swift in Sources */,
 				96D53D3529AFE71D00279523 /* ViewController.swift in Sources */,
 				96E2308429B12CC500CDBBA5 /* UIColor+Named.swift in Sources */,
+				96E2308829B156CE00CDBBA5 /* ViewControler+InitialFilter.swift in Sources */,
 				96E2308629B1300300CDBBA5 /* ViewController+ToShowString.swift in Sources */,
 				96E2308229B11F8600CDBBA5 /* ViewController+StatusAction.swift in Sources */,
 				96E2308029B11EF100CDBBA5 /* ViewController+TypeAction.swift in Sources */,

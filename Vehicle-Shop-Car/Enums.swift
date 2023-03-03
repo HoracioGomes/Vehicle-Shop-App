@@ -11,4 +11,5 @@ enum VehicleState{
     case out
     case available
     case repairs
+    case unknown
 }

@@ -10,14 +10,15 @@ import UIKit
 
 extension ViewController{
     @IBAction func statusAction(_ sender: Any) {
-        let ind = (sender as! UISegmentedControl).selectedSegmentIndex
         currArray = Array<Vehicle>()
-        switch ind {
+        let indStatus = (sender as! UISegmentedControl).selectedSegmentIndex
+        let indType = segmentedControlType.selectedSegmentIndex
+        switch indStatus {
         case 0://Available
             
             for vehicle in Dummies.dummies{
                 if(vehicle.status == VehicleState.available){
-                    currArray.append(vehicle)
+                    filterType(indType: indType, vehicle: vehicle)
                 }
             }
             showString(title: "Available", vehicles: currArray)
@@ -25,14 +26,15 @@ extension ViewController{
             
             for vehicle in Dummies.dummies{
                 if(vehicle.status == VehicleState.out){
-                    currArray.append(vehicle)
+                    filterType(indType: indType, vehicle: vehicle)
                 }
             }
+            print(currArray.count)
             showString(title: "Out", vehicles: currArray)
         case 2://Repairs
             for vehicle in Dummies.dummies{
                 if(vehicle.status == VehicleState.repairs){
-                    currArray.append(vehicle)
+                    filterType(indType: indType, vehicle: vehicle)
                 }
             }
             showString(title: "Repair", vehicles: currArray)
@@ -40,5 +42,18 @@ extension ViewController{
             break
         }
         
+    }
+    
+    func filterType(indType: Int, vehicle: Vehicle){
+        switch indType {
+        case 0: if let thisVehicle = vehicle as? Sedan{
+            currArray.append(thisVehicle)
+        }
+        case 1: if let thisVehicle = vehicle as? Truck{
+            currArray.append(thisVehicle)
+        }
+        default:
+            return
+        }
     }
 }

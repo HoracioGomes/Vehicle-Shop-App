@@ -24,4 +24,6 @@ class Dummies{
         dummies.append(vehicle_3)
         dummies.append(vehicle_4)
     }
+    
+
 }
