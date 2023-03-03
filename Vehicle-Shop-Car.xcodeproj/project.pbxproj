@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961265F529B2621400B00D3B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961265F429B2621400B00D3B /* AddViewController.swift */; };
+		961265F729B294BE00B00D3B /* String+Colored.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961265F629B294BE00B00D3B /* String+Colored.swift */; };
 		96D53D3129AFE71D00279523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D3029AFE71D00279523 /* AppDelegate.swift */; };
 		96D53D3329AFE71D00279523 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D3229AFE71D00279523 /* SceneDelegate.swift */; };
 		96D53D3529AFE71D00279523 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D53D3429AFE71D00279523 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		961265F429B2621400B00D3B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		961265F629B294BE00B00D3B /* String+Colored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Colored.swift"; sourceTree = "<group>"; };
 		96D53D2D29AFE71D00279523 /* Vehicle-Shop-Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vehicle-Shop-Car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D53D3029AFE71D00279523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D53D3229AFE71D00279523 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 		96D53D2F29AFE71D00279523 /* Vehicle-Shop-Car */ = {
 			isa = PBXGroup;
 			children = (
+				961265F629B294BE00B00D3B /* String+Colored.swift */,
 				96E2308329B12CC500CDBBA5 /* UIColor+Named.swift */,
 				96D53D3029AFE71D00279523 /* AppDelegate.swift */,
 				96D53D3229AFE71D00279523 /* SceneDelegate.swift */,
@@ -85,6 +90,7 @@
 				96E2307F29B11EF100CDBBA5 /* ViewController+TypeAction.swift */,
 				96E2308129B11F8600CDBBA5 /* ViewController+StatusAction.swift */,
 				96D53D3629AFE71D00279523 /* Main.storyboard */,
+				961265F429B2621400B00D3B /* AddViewController.swift */,
 				96D53D3929AFE72300279523 /* Assets.xcassets */,
 				96D53D3B29AFE72300279523 /* LaunchScreen.storyboard */,
 				96D53D3E29AFE72300279523 /* Info.plist */,
@@ -170,6 +176,7 @@
 			files = (
 				96D53D4529AFEB3600279523 /* Vehicle.swift in Sources */,
 				96D53D3529AFE71D00279523 /* ViewController.swift in Sources */,
+				961265F529B2621400B00D3B /* AddViewController.swift in Sources */,
 				96E2308429B12CC500CDBBA5 /* UIColor+Named.swift in Sources */,
 				96E2308829B156CE00CDBBA5 /* ViewControler+InitialFilter.swift in Sources */,
 				96E2308629B1300300CDBBA5 /* ViewController+ToShowString.swift in Sources */,
@@ -180,6 +187,7 @@
 				96D53D3329AFE71D00279523 /* SceneDelegate.swift in Sources */,
 				96D53D4D29B00DC500279523 /* Dummies.swift in Sources */,
 				96D53D4929B00A3500279523 /* Sedan.swift in Sources */,
+				961265F729B294BE00B00D3B /* String+Colored.swift in Sources */,
 				96D53D4F29B0273100279523 /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

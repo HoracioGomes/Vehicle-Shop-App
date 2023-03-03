@@ -25,7 +25,7 @@ extension ViewController {
             toShowString.append("\n\t\t")
             toShowString.append("Max Gear: \(String(vehicle.maxGear))")
             toShowString.append("\n\t\t")
-            toShowString.append("Status: \(vehicle.status ?? VehicleState.unknown)")
+            toShowString.append("Status: \(vehicle.status!)")
             toShowString.append("\n")
         }
         

@@ -19,5 +19,27 @@ class Vehicle: NSObject {
         self.maxGear = maxGear
         self.status = status
     }
+    
+    convenience init? (inpDictionary: Dictionary<String, Any>) {
+        print("Dentro do construtor: \(inpDictionary.values)")
+        guard let name =  inpDictionary["nameKey"] as? String,
+              let gears = inpDictionary["numGears"] as? Int,
+              let colorStr = inpDictionary["colorName"] as? String,
+              let statusStr = inpDictionary["statusKey"] as? String
+        else{
+            return nil
+        }
+                
+        var status = VehicleState.available
+        
+        for anyStatus in VehicleState.allCases
+        {
+            if("\(anyStatus)" == statusStr){
+                status = anyStatus
+            }
+        }
+        
+        self.init(name: name, color: colorStr.color!, maxGear: gears, status: status)
+    }
 
 }

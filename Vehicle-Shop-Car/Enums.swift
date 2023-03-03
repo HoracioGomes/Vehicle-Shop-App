@@ -7,9 +7,9 @@
 
 import Foundation
 
-enum VehicleState{
-    case out
-    case available
-    case repairs
-    case unknown
+enum VehicleState: Int, CaseIterable{
+    case out = 0
+    case available = 1
+    case repairs = 2
+//    case unknown
 }
